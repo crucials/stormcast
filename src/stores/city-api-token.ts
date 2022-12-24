@@ -18,7 +18,6 @@ export const useCityApiTokenStore = defineStore('cityApiToken', () => {
     
         accessToken.value = (await response.json())['access_token']
         tokenReceived.value = true
-        console.log('New token! ' + accessToken.value)
     }
 
     return { accessToken }
