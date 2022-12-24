@@ -1,7 +1,7 @@
 <template>
     <li class="weather-card">
         <div class="flex items-center gap-x-9 mb-9 min-w-3">
-            <img :src="'weather-icons/' + condition?.iconFilename" alt="Weather icon" class="w-36 sm:w-32">
+            <img :src="'' + condition?.iconFilename" alt="Weather icon" class="w-36 sm:w-32">
 
             <p class="font-light text-2xl themeable dark:text-white sm:text-xl">
                 {{ condition?.title }}
