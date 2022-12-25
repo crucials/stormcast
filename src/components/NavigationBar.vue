@@ -38,7 +38,6 @@
     import CityAutocompleteField from '@/components/CityAutocompleteField.vue'
 
     import { ref, type PropType } from 'vue'
-    import router from '@/scripts/router'
     import { useRecentCitiesStore } from '@/stores/recent-cities'
     import { storeToRefs } from 'pinia'
 

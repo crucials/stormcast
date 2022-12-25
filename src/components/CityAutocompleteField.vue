@@ -23,7 +23,7 @@
 </template>
 
 <script lang="ts" setup>
-    import { ref, watch, type PropType, toRefs } from 'vue'
+    import { ref, type PropType } from 'vue'
     import { useCitySuggestions } from '@/composables/city-suggestions'
 
 
@@ -34,12 +34,6 @@
     const queryModelUpdate = (newValue : string) => {
         emit('update:modelValue', newValue)
     }
-
-    const cities : string[] = [
-        'Barcelona',
-        'Burgas',
-        'Minsk'
-    ]
 
     const props = defineProps({
         modelValue: {

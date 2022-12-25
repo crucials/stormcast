@@ -32,7 +32,7 @@
                 </button>
 
                 <ul class="w-7/12 lg:order-1 lg:w-full lg:min-w-3 min-h-4.5 relative">
-                    <weather-card v-for="forecastDay in weather" 
+                    <weather-card v-for="forecastDay in weather" :key="weather.indexOf(forecastDay)"
                         :weather="forecastDay" class="h-full absolute w-full top-0 left-0 opacity-0 rotate-6
                         -translate-x-4 -translate-y-5"
                         :class="{
@@ -63,7 +63,6 @@
     import { findCities } from '@/scripts/city-search'
     import type { DailyWeather, City } from '@/scripts/types'
     import { useSlider } from '@/composables/slider'
-    import { storeToRefs } from 'pinia'
     import { useRecentCitiesStore } from '@/stores/recent-cities'
 
     

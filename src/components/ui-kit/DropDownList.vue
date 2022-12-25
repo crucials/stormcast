@@ -7,7 +7,7 @@
         </svg>
 
         <div class="drop-down-list">
-            <a class="themeable drop-down-item" v-for="item in items" 
+            <a class="themeable drop-down-item" v-for="item in items" :key="items.indexOf(item)"
                 :href="item.link" :class="{ 'hover:underline': item.link != undefined }">
                 {{ item.name }}
             </a>
