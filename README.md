@@ -1,6 +1,6 @@
 # Stormcast weather application
 
-Website shows past, current and future weather :cloud:. Forecasts contain temperature, wind speed, condition (rain, snowfall, cloudy) and solar radiation amount.
+Website shows past, current and future weather :cloud:. Forecasts contain temperature, wind speed, condition (rain, snowfall, cloudy) and solar radiation amount. Also this app has custom modern design.
 
 [View the app :eyes:](https://stormcast.netlify.app/)
 
