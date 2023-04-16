@@ -6,7 +6,7 @@
             <spinner/>
         </div>
 
-        <main class="py-20 px-14" v-if="!dataLoading">
+        <main class="py-20 px-14 sm:px-6" v-if="!dataLoading">
             <h2 class="themeable font-normal flex items-center gap-x-3 text-3xl dark:text-white mb-12">
                 <svg width="64" height="64" viewBox="0 0 64 64" fill="none" xmlns="http://www.w3.org/2000/svg">
                     <g clip-path="url(#clip0_18_719)">

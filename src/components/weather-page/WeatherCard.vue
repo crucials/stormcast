@@ -1,9 +1,9 @@
 <template>
     <li class="weather-card">
-        <div class="flex items-center gap-x-9 mb-9 min-w-2.5">
+        <div class="flex items-center gap-x-9 mb-9 min-w-2 sm:gap-x-3 xs:flex-wrap gap-y-4">
             <img :src="'' + condition?.iconFilename" alt="Weather icon" class="w-36 sm:w-32">
 
-            <p class="font-light text-2xl themeable dark:text-white sm:text-xl break-words">
+            <p class="font-light text-2xl themeable dark:text-white sm:text-xl break-all">
                 {{ condition?.title }}
             </p>
         </div>
